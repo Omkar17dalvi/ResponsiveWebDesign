@@ -1,0 +1,120 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DogPhotoApp</title>
+  </head>
+  <body>
+    <h1>DogPhotoApp</h1>
+    <main>
+      <section>
+        <h2>Dog Photos</h2>
+        <p>
+          Click here to view more
+          <a href="https://stocksnap.io/search/dog" target="_blank"
+            >dog photos</a
+          >.
+        </p>
+        <figure>
+          <a href="https://stocksnap.io/search/dog" target="_blank"
+            ><img
+              src="https://image.shutterstock.com/image-photo/happy-puppy-dog-smiling-on-260nw-1799966587.jpg"
+              alt="Cute dog photo"
+          /></a>
+          <figcaption>Cute Dog</figcaption>
+        </figure>
+      </section>
+      <section>
+        <h2>Cat Lists</h2>
+        <h3>Things Dogs love.</h3>
+        <ul>
+          <li>Toys</li>
+          <li>Bone</li>
+          <li>Play time</li>
+        </ul>
+        <figure>
+          <img
+            src="https://image.shutterstock.com/image-photo/plastic-dog-bone-top-view-260nw-2120194994.jpg"
+            alt="a dog bone"
+          />
+          <figcaption>Dogs <em>love</em> a bone</figcaption>
+        </figure>
+        <h3>Thigs Dogs hate.</h3>
+        <ol>
+          <li>Fire Crackers</li>
+          <li>Cats</li>
+          <li>Other dogs</li>
+        </ol>
+        <figure>
+          <img
+            src="https://image.shutterstock.com/image-photo/closeup-portrait-funny-ginger-cat-260nw-1563541219.jpg"
+            alt="cute cat"
+          />
+          <figcaption>Dogs hate <strong>cats</strong>.</figcaption>
+        </figure>
+      </section>
+      <section>
+        <h2>Dog Form</h2>
+        <form action="">
+          <fieldset>
+            <legend>Is your dog a indoor or outdoor dog ></legend>
+            <label
+              ><input
+                type="radio"
+                name="indoor-outdoor"
+                id="outdoor"
+                value="outdoor"
+                checked
+              />
+              Outdoor</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="indoor-outdoor"
+                id="indoor"
+                value="indoor"
+              />
+              Indoor</label
+            >
+          </fieldset>
+          <fieldset>
+            <legend>What is your dogs personality?</legend>
+            <input
+              type="checkbox"
+              id="loving"
+              name="personality"
+              value="loving"
+              checked
+            />
+            <label for="loving">Loving</label>
+            <input type="checkbox" id="lazy" name="personality" value="lazy" />
+            <label for="lazy">Lazy</label>
+            <input
+              type="checkbox"
+              id="energetic"
+              name="personality"
+              value="energetic"
+            />
+            <label for="energetic">Energetic</label>
+          </fieldset>
+          <input
+            type="text"
+            name="dogPhotoUrl"
+            placeholder="dog photo url"
+            required
+          />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        No Copyright-<a href="https://www.freecodecamp.org/" target="_blank"
+          >freecodeCamp.org</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
